@@ -9,26 +9,24 @@ Hasib Al Muzdadid</br>
 [Rajshahi University of Engineering & Technology (RUET)](https://www.ruet.ac.bd/) </br>
 Portfolio: https://hasibalmuzdadid.github.io  </br> 
 
+## Project Description :
 
 <p align="center">
    <img src="./files/real time traffic capacity and speed detection.gif" width="450" height="300"/>
 </p>
 
-## Project Description :
 This project aims for a practical system to estimate vehicle speeds using merely cutting-edge computer vision technologies. This project demonstrates real-time vehicle detection, tracking, and speed estimation, leveraging the latest YOLO11-based detection combined with perspective transformations to map vehicle positions from camera views to real-world road coordinates.
-
-**Language used :** Python 3.11.13 </br> 
-**ML Framework :** PyTorch  </br>
-**Video used :** The video footage that has been used was captured from a CCTV camera overlooking the M6 highway near Knutsford, UK. The video is available on <a href="https://www.youtube.com/watch?v=PNCJQkvALVc">YouTube</a>, providing an accessible dataset for this project.  </br>
-**Model used :** YOLO11  </br> 
-
-This system also enables valuable insights to be generated from real-time traffic patterns and vehicle speed analytics.
+</br>This system also enables valuable insights to be generated from real-time traffic patterns and vehicle speed analytics.
 
 <p align="center">
   <img src="./files/speed distribution.png" width="45%" />
   <img src="./files/speed analysis.png" width="45%" />
 </p>
 
+**Language used :** Python 3.11.13 </br> 
+**ML Framework :** PyTorch  </br>
+**Video used :** The video footage that has been used was captured from a CCTV camera overlooking the M6 highway near Knutsford, UK. The video is available on <a href="https://www.youtube.com/watch?v=PNCJQkvALVc">YouTube</a>, providing an accessible dataset for this project.  </br>
+**Model used :** YOLO11  </br> 
 
 ## Setup :
 For installing the necessary requirements, use the following bash snippet
@@ -42,7 +40,7 @@ pip install -r requirements.txt
 
 For running the project, use the following bash snippet
 ```bash
-!mkdir -p ./output ./output/video ./output/Insights
+mkdir -p ./output ./output/video ./output/Insights
 python main.py \
     --video_path "./input_video.mp4" \
     --output_video_path "./output/video/output_annotated.mp4" \
