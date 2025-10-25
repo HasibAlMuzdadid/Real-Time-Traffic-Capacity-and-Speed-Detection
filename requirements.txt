@@ -1,0 +1,15 @@
+gdown: 5.2.0
+lapx: 0.5.11
+matplotlib==3.8.4
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.16.2
+seaborn==0.13.2
+supervision==0.24.0
+torch==2.1.2+cu118
+torchaudio==2.1.2+cu118
+torchvision==0.16.2+cu118 
+ultralytics==8.3.12
+
+
+
